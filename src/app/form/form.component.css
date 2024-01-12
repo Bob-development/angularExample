@@ -1,0 +1,25 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.post-inp{
+    background: inherit;
+    border: none;
+    border-bottom: 3px solid darkorchid;
+}
+
+.post-btn{
+    width: 70px;
+    background-color: black;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.post-btn:hover{
+    cursor: pointer;
+}
