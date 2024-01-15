@@ -6,14 +6,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit{
-  @Input() data: any;
-  public items = ['huy', '2', 'qwe'];
+  @Input() posts: any;
 
   constructor() {}
 
-  addPost(){
-    
-  }
+
   ngOnInit(): void {
   }
 

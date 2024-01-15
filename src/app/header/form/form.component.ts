@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-form',
@@ -7,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent{
   constructor() {}
+  
+  inputValue: string = '';
 
-  // public huy = 'huy';
+  @Output() postToHeader = new EventEmitter()
+  
 
   sendData(){
+    this.postToHeader.emit(this.inputValue);
     
   }
 

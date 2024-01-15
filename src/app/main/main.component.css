@@ -4,3 +4,14 @@
     flex-direction: column;
     gap: 3rem;
 }
+
+.post{
+    background-color: darkmagenta;
+    color: aliceblue;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

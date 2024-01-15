@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public data = 'huy';
+  public posts: string[] = [];
+
+  recievePostMessage(post: string){
+    this.posts.push(post);
+    console.log(this.posts);
+        
+  }
 
   constructor(){}
 }
